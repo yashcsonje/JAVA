@@ -8,7 +8,7 @@ public class BinarySearch {
             int mid = (start + end) / 2;
 
             //comparisons
-            if(numbers[mid] == key) {
+            if(numbers[mid] == key) { //found
                 return mid;
             }
             if(numbers[mid] < key) { //right
