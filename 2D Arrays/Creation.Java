@@ -19,8 +19,8 @@ public class Matrices {
         int n = matrix.length, m = matrix[0].length;
         
         Scanner sc = new Scanner(System.in);
-        for(int i=0; i<n; i++) {
-            for(int j=0; j<m; j++) {
+        for(int i=0; i<n; i++) {                   //For Rows
+            for(int j=0; j<m; j++) {               //For Columns
                 matrix[i][j] = sc.nextInt();
             }
         }
